@@ -1,0 +1,50 @@
+.main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: white;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  background: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(5, 15, 10, 2.1);
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  margin: 15px 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(191, 147, 233),
+    rgb(134, 11, 211)
+  );
+  border: none;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(134, 11, 211),
+    rgb(191, 147, 233)
+  );
+}
+
+.text {
+  margin: 20px;
+  font-size: 35px;
+  font-weight: bold;
+}
