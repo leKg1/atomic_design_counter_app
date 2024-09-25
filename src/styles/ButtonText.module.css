@@ -28,8 +28,8 @@
   margin: 15px 0;
   background-image: linear-gradient(
     to right,
-    rgb(191, 147, 233),
-    rgb(134, 11, 211)
+    rgb(17, 80, 29),
+    rgb(74, 137, 96)
   );
   border: none;
   cursor: pointer;
@@ -38,8 +38,8 @@
 .container button:hover {
   background-image: linear-gradient(
     to right,
-    rgb(134, 11, 211),
-    rgb(191, 147, 233)
+    rgb(61, 147, 108),
+    rgb(54, 230, 174)
   );
 }
 
